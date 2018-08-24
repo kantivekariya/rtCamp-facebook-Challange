@@ -1,0 +1,98 @@
+.header {
+    background-color: #3B5998;
+    height: 15vh;
+    padding-top: 2em;
+    color: white;
+}
+
+.action-button-div {
+    padding: 5em;
+    height: 85vh;
+    background: #E8EAF6;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-facebook {
+    background-color: #3B5998;
+}
+
+.facebook-heading {
+    padding-left: 5em;
+}
+
+.main-content {
+    background: #E8EAF6;
+    height: 85vh;
+}
+
+.logout-div {
+    padding: .9em;
+    background-color: #fff;
+}
+
+.mega-buttons {
+    position: absolute;
+    bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-message-div {
+    background-color: #3B5998;
+    height: 9vh;
+    padding-top: .5em;
+    color: white;
+    font-size: 1em !important;
+}
+
+.mega-buttons div {
+    margin-right: 1em;
+}
+
+.btn-small {
+    padding: .1em;
+    font-size: 1em;
+    background-color: #3B5998;
+    color: white;
+    margin-right: .1em;
+}
+
+.album-image {
+    height: 12em;
+    width: 13em;
+    object-fit: cover;
+}
+
+.albums-div {
+    height: 85vh;
+    padding-left: 10em;
+    padding-right: 10em;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.footer-div {
+    height: 6vh;
+    background-color: black;
+    font-size: .5em;
+    color: whitesmoke;
+}
+
+.footer-div-for-photos {
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.btn-primary {
+    padding: .1em;
+}
+
+.photos-body {
+    background:#E8EAF6;
+}
