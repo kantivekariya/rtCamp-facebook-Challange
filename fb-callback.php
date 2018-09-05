@@ -3,9 +3,10 @@
 
 	try {
 		$accessToken = $helper->getAccessToken();
-	} catch (\Facebook\Exceptions\FacebookResponseException $e) {
-		echo "Response Exception: " . $e->getMessage();
-		exit();
+	}
+// 	} catch (\Facebook\Exceptions\FacebookResponseException $e) {
+// 		echo "Response Exception: " . $e->getMessage();
+// 		exit();
 	} catch (\Facebook\Exceptions\FacebookSDKException $e) {
 		echo "SDK Exception: " . $e->getMessage();
 		exit();
