@@ -5,7 +5,7 @@
 		header('Location: index.php');
 		exit();
 	}
-	$redirectURL = "http://localhost/FacebookLogin/fb-callback.php";
+	$redirectURL = "https://rtcamptest.herokuapp.com/fb-callback.php";
 	$permissions = ['email'];
 	$loginURL = $helper->getLoginUrl($redirectURL, $permissions);
 ?>
