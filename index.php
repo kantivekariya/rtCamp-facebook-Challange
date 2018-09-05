@@ -47,10 +47,10 @@
 								<input type="checkbox" name="album[]" value="<?php echo "$cnt";?>">
 							</div>
 						<div>
-							<input type="button" onClick="window.location = '<?php echo 'http://localhost/FacebookLogin/zip.php?album='.$cnt ?>';" value="Download Zip" class="btn btn-small">
+							<input type="button" onClick="window.location = '<?php echo 'https://rtcamptest.herokuapp.com/zip.php?album='.$cnt ?>';" value="Download Zip" class="btn btn-small">
 						</div>
 						<div>
-							<input type="button" onClick="window.location = '<?php echo 'http://localhost/FacebookLogin/move_drive.php?album='.$cnt ?>';" value="Move Drive" class="btn btn-small">
+							<input type="button" onClick="window.location = '<?php echo 'https://rtcamptest.herokuapp.com/move_drive.php?album='.$cnt ?>';" value="Move Drive" class="btn btn-small">
 						</div>
 					</div>
 					</div>				
@@ -63,16 +63,16 @@
 
 			<div class="mega-buttons container">
 				<div>
-					<input type="button" onClick="window.location = 'http://localhost/FacebookLogin/zip.php';" value="Download All" class="btn btn-primary">
+					<input type="button" onClick="window.location = 'https://rtcamptest.herokuapp.com/zip.php';" value="Download All" class="btn btn-primary">
 				</div>
 				<div>
-					<input type="button" onClick="window.location = 'http://localhost/FacebookLogin/move_drive.php';" value="Move All drive" class="btn btn-primary">
+					<input type="button" onClick="window.location = 'https://rtcamptest.herokuapp.com/move_drive.php';" value="Move All drive" class="btn btn-primary">
 				</div>
 				<div>
-					<input type="submit" onClick="window.location = 'http://localhost/FacebookLogin/zip.php';" name="download_selected" value="Download Selected" class="btn btn-primary">
+					<input type="submit" onClick="window.location = 'https://rtcamptest.herokuapp.com/zip.php';" name="download_selected" value="Download Selected" class="btn btn-primary">
 				</div>
 				<div>
-					<input type="submit"  onClick="window.location = 'http://localhost/FacebookLogin/move_drive.php';" name="move_selected" value="Move Selected" class="btn btn-primary">
+					<input type="submit"  onClick="window.location = 'https://rtcamptest.herokuapp.com/move_drive.php';" name="move_selected" value="Move Selected" class="btn btn-primary">
 				</div>
 			</div>
 		</div>
