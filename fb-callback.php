@@ -31,6 +31,6 @@
 	//$_SESSION['fbAlbumObj']=$fbAlbumObj;
 	$_SESSION['userData'] = $userData;
 	$_SESSION['access_token'] = (string) $accessToken;
-	header('Location: index.php');
+	header('Location: https://rtcamptest.herokuapp.com/index.php');
 	exit();
 ?>
