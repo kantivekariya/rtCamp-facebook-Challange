@@ -9,8 +9,8 @@ require_once 'google-api-php-client/src/contrib/Google_DriveService.php';
 // require_once 'google-api-php-client/src/google/service/plus.php';
 // require_once 'google-api-php-client/src/google/Client.php';
 $client = new Google_Client();
-$client->setClientId('43388235477-qeehnign08584fhom9noe3auoeo24r9s.apps.googleusercontent.com');
-$client->setClientSecret('ejSC6LrVwYeoWKx1Dpvzqpqb');
+$client->setClientId('');
+$client->setClientSecret('');
 $client->setRedirectUri($url);
 $client->setScopes(array('https://www.googleapis.com/auth/drive'));
 if (isset($_GET['code'])) {
